@@ -5,7 +5,7 @@ Portfolio/*.pyc
 Portfolio/__pycache__
 Portfolio/media
 Portfolio/migrations
-Configuration/
+Configuration
 db.sqlite3
 
 # Bash #
