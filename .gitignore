@@ -1,11 +1,11 @@
 # Django #
+Configuration/
 Portfolio/*.log
 Portfolio/*.pot
 Portfolio/*.pyc
 Portfolio/__pycache__
 Portfolio/media
 Portfolio/migrations
-Configuration
 db.sqlite3
 
 # Bash #
