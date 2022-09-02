@@ -3,10 +3,13 @@ Portfolio/*.log
 Portfolio/*.pot
 Portfolio/*.pyc
 Portfolio/__pycache__
-db.sqlite3
 Portfolio/media
-Infrastructure
-Production
+Portfolio/migrations
+Configuration/
+db.sqlite3
+
+# Bash #
+*.sh
 
 # Backup files # 
 Portfolio/*.bak 

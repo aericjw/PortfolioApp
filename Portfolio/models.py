@@ -19,9 +19,3 @@ class Experience(models.Model):
     company = models.CharField(max_length=30)
     location = models.CharField(max_length=50)
     description = models.TextField()
-
-class ContactForm(models.Model):
-    name = models.TextField()
-    email = models.EmailField()
-    subject = models.CharField(max_length=100)
-    message = models.TextField

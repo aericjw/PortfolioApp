@@ -1,12 +1,11 @@
 from django.shortcuts import render
-from Portfolio.models import About, Skill, Experience, Project, ContactForm
+from Portfolio.models import About, Skill, Experience, Project
 
 def homepage(request):
     abouts = About.objects.all()
     skills = Skill.objects.all()
     exp = Experience.objects.all()
     project = Project.objects.all()
-    form = ContactForm.objects.all()
     
     for e in exp:
         e.start_date = e.start_date.strftime("%m/%Y")
@@ -17,6 +16,5 @@ def homepage(request):
         'skills': skills,
         'experience': exp,
         'projects': project,
-        'form': form
     }
     return render(request, 'index.html', context)
